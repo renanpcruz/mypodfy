@@ -1,0 +1,32 @@
+.card-group{
+    padding: 9rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item{
+  transition: transform 0.5s;
+}
+
+.item:hover{
+    transform: scale(1.11);
+}
+
+.image{
+    border-radius: 6rem;
+    margin-bottom: 3rem;
+}
+
+.block{
+    transition: transform 0.5s;
+}
+
+.block img{
+    width: 32rem;
+}
+
+.block:hover{
+    transform: scale(1.11);
+}
